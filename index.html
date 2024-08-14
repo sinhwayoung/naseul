@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>naseul</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chentalle:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style></style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="nav">
+          <ul class="gnb">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">BRAND STORY</a></li>
+            <li><a href="#">PRODUCT</a></li>
+          </ul>
+          <a href="#" class="logo">
+            <img src="images/logo.png" alt="회사 로고" />
+          </a>
+          <ul class="side-nav">
+            <li><a href="#">COMMUNITY</a></li>
+            <li><a href="#">HELP</a></li>
+            <li>
+              <a href="#"><img src="images/search.png" alt="검색 아이콘" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/global.png" alt="글로벌 아이콘"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <div class="main-inner">
+          <div class="main">
+            <video
+              width="1400
+            "
+              autoplay
+              loop
+              muted
+            >
+              <source src="/images/main.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="animate bounce-top text-1">
+            <img src="images/text-1.png" alt="프로모션 텍스트 이미지" />
+          </div>
+          <div class="animate bounce-top main-1">
+            <img src="images/main-1.png" alt="주요 프로모션 이미지" />
+          </div>
+          <div class="product">
+            <ul>
+              <li class="item-1 animate bounce-top">
+                <a href="#"
+                  ><img src="images/mockup-1.png" alt="제품 모형 1"
+                /></a>
+              </li>
+              <li class="item-2 animate bounce-top">
+                <a href="#"
+                  ><img src="images/mockup-2.png" alt="제품 모형 2"
+                /></a>
+              </li>
+              <li class="item-3 animate bounce-top">
+                <a href="#"
+                  ><img src="images/mockup-3.png" alt="제품 모형 3"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="animate bounce-top text-2">
+            <img src="images/text-2.png" alt="추가 프로모션 텍스트 이미지" />
+          </div>
+          <div class="content-1">
+            <div class="sum-1 animate bounce-top">
+              <img src="images/sum-1.png" alt="요약 이미지 1" />
+            </div>
+            <div class="sum-2 animate bounce-top">
+              <img src="images/sum-3.png" alt="요약 이미지 2" />
+            </div>
+          </div>
+          <div class="animate bounce-top text-3" id="text-3">
+            <img src="images/text-3.png" alt="최종 프로모션 텍스트 이미지" />
+          </div>
+          <div class="secticon">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/main-2.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/main-2-1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/main-2-2.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/main-2-3.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <div class="animate bounce-top" id="bounce-img">
+            <img class="text-4" src="images/text-4.png" alt="" />
+            <div>
+              <img
+                class="sum-5"
+                src="images/sum-5.png"
+                alt="상단 바운스 이미지 1"
+              />
+              <img
+                class="sum-6"
+                src="images/sum-6.png"
+                alt="상단 바운스 이미지 2"
+              />
+              <img
+                class="sum-7"
+                src="images/sum-7.png"
+                alt="상단 바운스 이미지 3"
+              />
+            </div>
+          </div>
+
+          <!-- 텍스트 무한루프 -->
+          <div class="slider">
+            <div class="slider-inner">
+              <!-- 동일한 이미지를 반복해서 추가합니다. -->
+              <div class="slide">
+                <img
+                  src="images/Welcome to NASEUL Pioneering Sustainability for a Better Tomorrow.png"
+                  alt="긴 이미지"
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src="images/Welcome to NASEUL Pioneering Sustainability for a Better Tomorrow.png"
+                  alt="긴 이미지"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="zerowaste">
+            <div><img src="images/zerowaste.png" alt="" /></div>
+            <div><img src="images/zerowaste-text.png" alt="" /></div>
+          </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+          <div class="footer-inner">
+            <div>
+              <span>
+                Let's protect nature and practice <br />
+                environmentally conscious consumption together!
+              </span>
+              <p>© 2024 NA'SEUL. All rights reserved.</p>
+            </div>
+            <div class="social">
+              <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+              </ul>
+              <div>
+                <ul>
+                  <li>E.nasel.gmail.com</li>
+                  <li>P.02 1234 5678</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const observerOptions = {
+          root: null,
+          rootMargin: "0px",
+          threshold: 0.1,
+        };
+
+        const observerCallback = (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              // 필요한 경우, 요소가 보이면 observer를 제거할 수 있습니다.
+              // observer.unobserve(entry.target);
+            }
+          });
+        };
+
+        const observer = new IntersectionObserver(
+          observerCallback,
+          observerOptions
+        );
+
+        const elementsToAnimate = document.querySelectorAll(".animate");
+        elementsToAnimate.forEach((element) => {
+          observer.observe(element);
+        });
+      });
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
